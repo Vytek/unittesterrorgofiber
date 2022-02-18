@@ -29,7 +29,7 @@ func TestIndexRoute(t *testing.T) {
 			route:         "/version",
 			expectedError: false,
 			expectedCode:  200,
-			expectedBody:  `{"message":"INFOGATEWAY ALGORAND SERVICE API v0.0.5","success":true}`,
+			expectedBody:  `{"message":"GATEWAY SERVICE API v0.0.1","success":true}`,
 		},
 		{
 			description:   "non existing route",
